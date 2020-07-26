@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave&family=Syncopate&display=swap');
+ body {
+  font-family: 'Sedgwick Ave', cursive;
+}
+
+/* code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+} */ */
+
+*{
+  box-sizing: border-box;
+  
+  }
+.eliminar{
+  border: solid  #beef00;
+  border-radius: 10px;
+}
+.header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+} 
+/* menu administrador /////////////////*/
+.menu{
+
+  justify-content:space-evenly;
+  list-style: none;
+  font-size: 10px;
+  font-family: 'Syncopate', sans-serif;
+
+}
+
+.menuMain {
+margin: 0;
+
+list-style: none;
+
+font-size: 18px;
+font-family: 'Syncopate', sans-serif;
+}
+.menuMain li {
+list-style: none;
+}
+.menuMain li a {
+display: block;
+padding: 5px 5px 5px 5px;
+background:  #beef00;
+color: #eee;
+border-bottom: 1px solid;
+border-top: 1px solid;
+text-decoration: none;
+box-sizing: border-box;
+border-radius: 15px;
+}
+.menuMain li ul {
+max-height:0px;
+margin: 0;
+padding: 0;
+list-style: none;
+overflow:hidden;
+transition: .5s all ease-in;
+}
+.menuMain li li a {
+padding: 5px 5px 5px 0px;
+background: #beef00;
+color: #000;
+font-size: 10px;
+border: 0;
+border-bottom: 1px solid #ccc;
+box-sizing: border-box;
+}
+
+.menuMain li:hover ul {
+max-height:300px;
+transition: .3s all ease-in;
+}
+.menuMain li a:hover {
+
+background: #beef00;
+color: #fff;
+}
+
+/* menu administrador /////////////////*/
+
+/* header /////////////////*/
+
+.carritologo{
+  position: relative;
+  height: 60px;
+  width:60px;
+}
+
+.carritologo img{
+
+  width: 100%;
+  margin-left: 0px;
+
+}
+
+.carritologo p{
+position: absolute;
+top:15px;
+left: 30px;
+right: 0;
+color:white;
+font-family: 'Syncopate', sans-serif;
+
+}
+
+#numeroLogo{
+  border: solid  #beef00;
+  background-color:  #beef00;
+margin-right: 10px;
+border-radius: 30px;
+border-bottom: 0px;
+margin-bottom: 0px;
+border-top: 8px;
+
+
+
+
+}
+
+
+/* presentacion productos /////////////////*/
+
+.stock{
+  font-family: 'Syncopate', sans-serif;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  
+  }
+  .stock img{
+      height:120px;
+      width: 220px;
+  }
+  
+  .sockStock{
+      display: flex;
+  flex-wrap: wrap;
+   align-items: center;
+      padding: 10px;
+      margin-left: 5px;
+      justify-content: center;
+  }
+.titleModel{
+  font-family: 'Syncopate', sans-serif;
+  text-align: center;
+}
+
+/* footer//////////////////////////////////////////////////////////*/
+
+.footer  {
+  font-family: 'Syncopate', sans-serif;
+  border-top: solid blue 1px;           
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #beef00;
+  color: white;
+  margin-bottom:0px;
+  width: 100%;
+  padding-bottom: 60px;
+  align-items: center;
+  }   
+  
+  .footerDer{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-evenly;
+  align-items: center;
+  
+  
+  }
+  /* .footerDer ul{
+  
+      padding :0px;
+      margin-left: 50px;
+      margin-right: 50px;S
+  
+  } */
+  
+  .footerDer li{
+  
+      list-style: none;
+      padding: 10px;
+  } 
+  
+  .foto img
+  {
+      width: 30px;
+      height: 30px;
+  }
+  .foto{
+      margin-left: 15px;
+  
+  }
+  .footerizq{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  
+  }
+  .listos h5{
+  margin-bottom: 0px;
+  
+  }
+  .listos ul{
+      margin-top: 0px;
+      
+      }
+   .listos
+  {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+  } 
+/* footer//////////////////////////////////////////////////////////*/
+.formulario{
+  font-family: 'Syncopate', sans-serif;
+
+display:flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+/* footer//////////////////////////////////////////////////////////*/
+.logo img{
+
+  height:60px;
+      width:60px;
+  
+  }
+  .logo{
+  font-family: 'Sedgwick Ave', cursive;
+  
+  }
+  .logo{
+display: flex;
+flex-direction: column;
+align-items: center;
+
+  }
+
+/* //////////cesta//////////////////// */
+  .botonComprar{
+    border: springgreens solid;
+    border-radius: 30px;
+    background-color: #beef00;
+
+    
+      }
+      .totalCompra{
+        display: flex;
+        flex-direction: column;
+        font-family: 'Syncopate', sans-serif;  
+        
+          }
